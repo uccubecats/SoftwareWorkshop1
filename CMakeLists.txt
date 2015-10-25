@@ -17,5 +17,5 @@ add_subdirectory(util)
 
 # Create the executable
 add_executable(${PROJECT_NAME} main.cpp)
-target_link_libraries(${PROJECT_NAME} UtilLib)
+target_link_libraries(${PROJECT_NAME} Util)
 #target_link_libraries(${PROJECT_NAME} opencv)
