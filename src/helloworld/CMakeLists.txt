@@ -1,9 +1,9 @@
 # Project details
-project(Util)
+project(helloworld)
 
 # Project Headers/Source
-set(${PROJECT_NAME}_headers "Util.h")
-set(${PROJECT_NAME}_sources "Util.c")
+set(${PROJECT_NAME}_headers "helloworld.h")
+set(${PROJECT_NAME}_sources "helloworld.cpp")
 
 # Create the library
 add_library(${PROJECT_NAME} SHARED ${${PROJECT_NAME}_headers}
