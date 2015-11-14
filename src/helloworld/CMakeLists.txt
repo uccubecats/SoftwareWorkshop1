@@ -7,4 +7,4 @@ set(${PROJECT_NAME}_sources "helloworld.cpp")
 
 # Create the library
 add_library(${PROJECT_NAME} SHARED ${${PROJECT_NAME}_headers}
-                                  ${${PROJECT_NAME}_sources})
+                                   ${${PROJECT_NAME}_sources})
